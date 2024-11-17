@@ -15,7 +15,7 @@ public class Mural {
     private Long idM;  // Identificador del mural
 
     private String titulo;  // Título del mural
-    private String ap;  // Autor del mural
+    private Long ap;  // Autor del mural
     private String dimensiones;  // Dimensiones del mural
     private String materiales;  // Materiales usados
     private Double rating;  // Calificación del mural
@@ -43,11 +43,11 @@ public class Mural {
         this.titulo = titulo;
     }
 
-    public String getAp() {
+    public Long getAp() {
         return ap;
     }
 
-    public void setAp(String ap) {
+    public void setAp(Long ap) {
         this.ap = ap;
     }
 
